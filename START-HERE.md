@@ -11,6 +11,10 @@ Undertone is a private media studio with ten audio slots, a visual connection ne
 | iPhone with iOS 17 or later | `Undertone-iOS.ipa` | Sign and install using your own Apple Account through AltServer on Windows or Mac. Follow [IOS-INSTALL.md](IOS-INSTALL.md). |
 | Android 9 or later | `Undertone-Android.apk` | Open the signed APK on your phone and approve installation for that file's source app. Follow [ANDROID-INSTALL.md](ANDROID-INSTALL.md). |
 
+The release targets **iPhone 14, iPhone 14 Plus, iPhone 14 Pro and iPhone 14 Pro Max**, along with other supported iPhones running **iOS 17 or later**. Install the same IPA on these models; a separate model-specific download is not needed.
+
+**Android requirement:** Android 9 or later with updated Android System WebView and/or Chrome.
+
 An unsigned IPA cannot install by tapping it in Safari or Files. An IPA signed for someone else's devices is not a universal installer for friends. Each iPhone owner uses their own signing account; nobody needs to share an Apple password with the sender. Android recipients use the supplied signed APK without signing it themselves.
 
 The free iPhone route needs periodic renewal. The installation guide explains the seven-day period and app quota. This kit is a direct sharing package, not an App Store, TestFlight or Google Play listing.

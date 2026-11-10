@@ -2,6 +2,8 @@
 
 Use the release file `Undertone-Android.apk` on **Android 9 or later**. The APK supports the normal Android CPU architectures without choosing a separate download. You do not need an Apple Account, AltServer or your own signing key. These instructions were checked against official guidance on November 8, 2026.
 
+Keep **Android System WebView and/or Chrome updated** on the phone. The studio interface uses the system WebView; the audio mixer runs in a native background service.
+
 ## Install the APK
 
 1. Save the APK to the phone, extract the package if necessary, and open it from Downloads or Files.

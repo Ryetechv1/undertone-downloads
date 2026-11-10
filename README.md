@@ -12,4 +12,4 @@ See [IOS-INSTALL.md](IOS-INSTALL.md), [ANDROID-INSTALL.md](ANDROID-INSTALL.md), 
 
 The release targets **iPhone 14, iPhone 14 Plus, iPhone 14 Pro and iPhone 14 Pro Max**, along with other supported iPhones running **iOS 17 or later**. Install the same IPA on these models; a separate model-specific download is not needed.
 
-Android 9 or later requires updated Android System WebView and/or Chrome. The upcoming starter release is not yet published; no all-device physical test claim is made.
+Android 9 or later requires updated Android System WebView and/or Chrome. The upcoming starter release is not yet published.

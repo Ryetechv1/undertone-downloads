@@ -1,12 +1,20 @@
-# Use Undertone Studio
+# Use Undertone 3.1
 
 The expanded studio combines ten audio slots with a visual network and a private media collection. The flow diagram and intent text are visual organization tools. They do not route audio signals, change a recording's contents or establish a subliminal, medical or therapeutic effect.
+
+## Five included recordings
+
+A fresh installation of **Undertone 3.1, build 6** starts with the five recordings captured from the owner's assigned iPhone mix. All five titles appear immediately. The first time you press **Play** for a recording, the app prepares its private local copy before playback. That preparation happens on the phone; you do not need to upload or stream the track.
+
+If you press **Pause** or **Clear** while a recording is preparing, its queued playback is canceled. It will not start later just because preparation finishes. Your own channel edits and saved mix remain in place when you update. The starter pack is applied only to a fresh installation, so an update does not replace an existing mix.
+
+The five MP3s total about **88 MB** before app packaging. Exact IPA/APK download sizes will be posted with the verified release. Android also prepares decoded audio on disk: after all five tracks have been prepared, allow about **1.5 GB of additional private audio storage**, on top of the installed app and any installer you keep.
 
 ## First listen
 
 1. Lower your phone's output volume, open Undertone and allow the interface to finish loading.
-2. Select **Import audio** or an empty channel, then choose an MP3 or WAV. If it is stored in a cloud file provider, download the file before importing.
-3. Tap Play for that channel. **Pause** keeps its position; **Stop** rewinds. Use the bottom transport to control the mix. Saved audio returns paused on a new launch.
+2. Choose one of the five starting tracks and tap **Play**. Allow its first-use preparation to finish. To add your own file instead, select **Import audio** or an empty channel and choose an MP3 or WAV; download cloud-provider files onto the phone first.
+3. **Pause** keeps the current position; **Stop** rewinds. Use the bottom transport to control the mix. Saved audio returns paused on a new launch.
 4. Add more recordings, up to **ten slots**. A slot can hold a recording, a generated tone or both. Importing into an occupied slot replaces that slot's recording.
 5. Tap a channel name or its controls button to adjust level, seek, mute, looping and stereo position. Optional automatic panning moves between its selected bounds.
 6. Test the app with the phone locked and with your usual second media app before relying on a long background session. Calls, alarms, device controls and other apps can interrupt playback. Use the platform installation guide if background playback stops.

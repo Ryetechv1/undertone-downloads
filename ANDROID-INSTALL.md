@@ -1,4 +1,4 @@
-# Install Undertone on Android
+# Install Undertone 3.1 on Android
 
 Use the release file `Undertone-Android.apk` on **Android 9 or later**. The APK supports the normal Android CPU architectures without choosing a separate download. You do not need an Apple Account, AltServer or your own signing key. These instructions were checked against official guidance on November 8, 2026.
 
@@ -43,3 +43,7 @@ Read [APP-GUIDE.md](APP-GUIDE.md) for channel controls, the gallery and the visu
 ## Audio storage on Android
 
 The Android build accepts mono or stereo MP3/WAV imports up to **1 GiB per encoded file**. It decodes audio to local 48 kHz stereo PCM on disk, with a **4 GiB decoded-file cap** (about 3.1 hours). This uses roughly **1.4 GB of storage per hour of audio**, so long recordings need substantial free space even when the MP3 is small. The temporary encoded import is removed after decoding; retain your original files elsewhere. Android manages audio through the ten studio slots; the separate legacy **Native library** screen is an iPhone feature.
+
+## Included starter recordings
+
+The 3.1 starter release is being prepared with five assigned MP3s totaling about **88 MB**. On a fresh install their titles appear immediately; first **Play** prepares each private recording. Preparing all five adds about **1.5 GB of private decoded audio**, in addition to the app and any installer retained in Downloads. Exact APK size will be published with the final release. See [APP-GUIDE.md](APP-GUIDE.md) for queued playback cancellation and update behavior.

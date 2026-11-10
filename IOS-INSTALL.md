@@ -1,8 +1,10 @@
-# Install Undertone on iPhone
+# Install Undertone 3.1 on iPhone
 
 Use `Undertone-iOS.ipa` on an **iPhone with iOS 17 or later**, with **AltServer / AltStore Classic**. AltStore PAL is a different distribution route. These instructions were checked against the official sources on November 8, 2026. The app file must be present in your package before starting.
 
 The release targets **iPhone 14, iPhone 14 Plus, iPhone 14 Pro and iPhone 14 Pro Max**, along with other supported iPhones running **iOS 17 or later**. Install the same IPA on these models; a separate model-specific download is not needed.
+
+The 3.1 starter release is being prepared with five assigned MP3s totaling about **88 MB**. On a fresh install their titles appear immediately; first **Play** prepares each private local copy. Updating an existing installation keeps its assignments and saved mix. Exact IPA size will be posted with the release.
 
 ## Before you start
 

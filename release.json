@@ -1,7 +1,11 @@
 {
   "status": "preparing",
-  "version": null,
-  "build": null,
+  "version": "3.1",
+  "build": 6,
   "starter_tracks": 5,
+  "starter_audio_bytes": 87924242,
+  "fresh_install_only": true,
+  "first_play_prepares_private_copy": true,
+  "android_all_starters_additional_private_bytes_approx": 1500000000,
   "assets": {}
 }

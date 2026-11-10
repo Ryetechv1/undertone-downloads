@@ -1,8 +1,16 @@
-# Undertone Studio — start here
+# Undertone 3.1 — start here
 
 Undertone is a private media studio with ten audio slots, a visual connection network, a media gallery, rotating backgrounds and the preserved Teal Apparitions effect.
 
-**The updated starter release is being prepared.** The iPhone installer will require your own Apple signing; the Android installer will be supplied signed. The current iPhone Studio was tested by its owner; the new bundled-recording release is still being prepared. Check your own device after installing. [RELEASE-NOTES.md](RELEASE-NOTES.md) lists the completed checks and remaining verification, and [RELEASE-VERIFICATION.json](RELEASE-VERIFICATION.json) contains the release record.
+**Undertone 3.1, build 6 is being prepared.** The iPhone installer will require your own Apple signing; the Android installer will be supplied signed. The current iPhone Studio was tested by its owner; the new bundled-recording release is still being prepared. Check your own device after installing. [RELEASE-NOTES.md](RELEASE-NOTES.md) lists the completed checks and remaining verification, and the release verification record will be published with the installers.
+
+## Five included recordings
+
+A fresh installation of **Undertone 3.1, build 6** starts with the five recordings captured from the owner's assigned iPhone mix. All five titles appear immediately. The first time you press **Play** for a recording, the app prepares its private local copy before playback. That preparation happens on the phone; you do not need to upload or stream the track.
+
+If you press **Pause** or **Clear** while a recording is preparing, its queued playback is canceled. It will not start later just because preparation finishes. Your own channel edits and saved mix remain in place when you update. The starter pack is applied only to a fresh installation, so an update does not replace an existing mix.
+
+The five MP3s total about **88 MB** before app packaging. Exact IPA/APK download sizes will be posted with the verified release. Android also prepares decoded audio on disk: after all five tracks have been prepared, allow about **1.5 GB of additional private audio storage**, on top of the installed app and any installer you keep.
 
 ## Choose your phone
 
@@ -33,7 +41,7 @@ If you used the older native iPhone app, open **Help (question-mark icon) → Na
 
 ## Check a download
 
-The package's [SHA256SUMS.txt](SHA256SUMS.txt) lists the actual app-file hashes. These commands calculate a hash for comparison; they do not install anything:
+The package's `SHA256SUMS.txt` (provided with the release) lists the actual app-file hashes. These commands calculate a hash for comparison; they do not install anything:
 
 ```powershell
 Get-FileHash .\Undertone-iOS.ipa -Algorithm SHA256

@@ -1,0 +1,9 @@
+# Undertone public installation guide
+
+Share https://ryetechv1.github.io/undertone-downloads/ with iPhone and Android friends.
+
+The upcoming five-recording starter release is being prepared. Public app downloads remain inactive until the finalized packages are uploaded to a GitHub Release and release.json is marked ready.
+
+This repository contains static guide files only. Application source remains in its existing private repository. App binaries and the shared starter recordings will be distributed through versioned GitHub Release assets, not through the Pages Git history.
+
+See [IOS-INSTALL.md](IOS-INSTALL.md), [ANDROID-INSTALL.md](ANDROID-INSTALL.md), and [APP-GUIDE.md](APP-GUIDE.md).

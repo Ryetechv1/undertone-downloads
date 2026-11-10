@@ -1,0 +1,7 @@
+*.ipa
+*.apk
+*.zip
+*.jks
+*.keystore
+.env*
+node_modules/

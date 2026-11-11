@@ -1,11 +1,34 @@
 {
-  "status": "preparing",
-  "version": "3.1",
-  "build": 6,
+  "version": "3.2",
+  "build": 9,
   "starter_tracks": 5,
   "starter_audio_bytes": 87924242,
   "fresh_install_only": true,
   "first_play_prepares_private_copy": true,
   "android_all_starters_additional_private_bytes_approx": 1500000000,
-  "assets": {}
+  "status": "ready",
+  "assets": {
+    "ios": "https://github.com/Ryetechv1/undertone-downloads/releases/download/v3.2/Undertone-iOS.ipa",
+    "android": "https://github.com/Ryetechv1/undertone-downloads/releases/download/v3.2/Undertone-Android.apk",
+    "bundle": "https://github.com/Ryetechv1/undertone-downloads/releases/download/v3.2/Undertone-Friends.zip",
+    "checksums": "https://github.com/Ryetechv1/undertone-downloads/releases/download/v3.2/SHA256SUMS.txt",
+    "verification": "https://github.com/Ryetechv1/undertone-downloads/releases/download/v3.2/RELEASE-VERIFICATION.json"
+  },
+  "files": {
+    "ios": {
+      "file": "Undertone-iOS.ipa",
+      "bytes": 63085485,
+      "sha256": "50a5f0edb3c169ff54f366974050d1c0093b643f5e6dfdfab6148abe98ae27e9"
+    },
+    "android": {
+      "file": "Undertone-Android.apk",
+      "bytes": 60446761,
+      "sha256": "bbb8d91c17cb84a4f2f943acbd1020b75eeeb828dfdb02e894984a910afe2f77"
+    },
+    "bundle": {
+      "file": "Undertone-Friends.zip",
+      "bytes": 123246337,
+      "sha256": "d7ffa45fe4568d3401ae34ac83053a69d65d5e0168ef166fcc7a549550038208"
+    }
+  }
 }

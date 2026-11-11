@@ -1,6 +1,6 @@
-# Install Undertone 3.1 on Android
+# Install Undertone 3.2 on Android
 
-Use the release file `Undertone-Android.apk` on **Android 9 or later**. The APK supports the normal Android CPU architectures without choosing a separate download. You do not need an Apple Account, AltServer or your own signing key. These instructions were checked against official guidance on November 8, 2026.
+Use the release file `Undertone-Android.apk` on **Android 9 or later**. The APK supports the normal Android CPU architectures without choosing a separate download. You do not need an Apple Account, AltServer or your own signing key. The main installation steps were checked against official guidance on November 9, 2026 (Denver).
 
 Keep **Android System WebView and/or Chrome updated** on the phone. The studio interface uses the system WebView; the audio mixer runs in a native background service.
 
@@ -10,7 +10,7 @@ Keep **Android System WebView and/or Chrome updated** on the phone. The studio i
 2. If Android blocks installation from that source, follow **Settings → Allow from this source** for the browser or file manager that opened the APK. You can also search Settings for **Install unknown apps**. This permission belongs to the source app, not every app on the phone.
 3. Return to the installer and tap **Install**, then **Open**. Afterward you may turn that source's installation permission off again. Google's path is **Settings → Apps → Special app access → Install unknown apps**; manufacturer labels vary. [Google's installation instructions](https://support.google.com/pixelphone/answer/7391672?hl=en).
 4. Leave **Google Play Protect enabled**. If it offers to scan the unfamiliar APK, let it scan and read the result. If it blocks the app as harmful, stop and send the exact message to the person providing the build; do not disable protection to get around it. [Google Play Protect](https://support.google.com/android/answer/2812853?hl=en).
-5. Open Undertone and follow [APP-GUIDE.md](APP-GUIDE.md). Start with one short file and a low device volume.
+5. Open Undertone and confirm **Studio / Gallery / Saved HUD / Guide** appear. Follow [APP-GUIDE.md](APP-GUIDE.md), starting with one included recording and a low device volume.
 
 Work-managed, child-managed or protected devices may prohibit this installation route. Follow the device's applicable management policy. Some regions and Android releases also have developer-verification requirements; consult the [current Android verification guidance](https://developer.android.com/developer-verification) if that is the message you see. A generic APK guide cannot override those requirements.
 
@@ -46,4 +46,4 @@ The Android build accepts mono or stereo MP3/WAV imports up to **1 GiB per encod
 
 ## Included starter recordings
 
-The 3.1 starter release is being prepared with five assigned MP3s totaling about **88 MB**. On a fresh install their titles appear immediately; first **Play** prepares each private recording. Preparing all five adds about **1.5 GB of private decoded audio**, in addition to the app and any installer retained in Downloads. Exact APK size will be published with the final release. See [APP-GUIDE.md](APP-GUIDE.md) for queued playback cancellation and update behavior.
+The 3.2 starter release includes five assigned MP3s totaling about **88 MB**. On a fresh install their titles appear immediately; first **Play** prepares each private recording. Preparing all five adds about **1.5 GB of private decoded audio**, in addition to the app and any installer retained in Downloads. The release verification record provides the exact APK size and hash. See [APP-GUIDE.md](APP-GUIDE.md) for queued playback cancellation and update behavior.

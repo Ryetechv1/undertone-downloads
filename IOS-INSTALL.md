@@ -1,10 +1,10 @@
-# Install Undertone 3.1 on iPhone
+# Install Undertone 3.2 on iPhone
 
-Use `Undertone-iOS.ipa` on an **iPhone with iOS 17 or later**, with **AltServer / AltStore Classic**. AltStore PAL is a different distribution route. These instructions were checked against the official sources on November 8, 2026. The app file must be present in your package before starting.
+Use `Undertone-iOS.ipa` on an **iPhone with iOS 17 or later**, with **AltServer / AltStore Classic**. AltStore PAL is a different distribution route. The main installation steps were checked against the official sources on November 9, 2026 (Denver). The app file must be present in your package before starting.
 
 The release targets **iPhone 14, iPhone 14 Plus, iPhone 14 Pro and iPhone 14 Pro Max**, along with other supported iPhones running **iOS 17 or later**. Install the same IPA on these models; a separate model-specific download is not needed.
 
-The 3.1 starter release is being prepared with five assigned MP3s totaling about **88 MB**. On a fresh install their titles appear immediately; first **Play** prepares each private local copy. Updating an existing installation keeps its assignments and saved mix. Exact IPA size will be posted with the release.
+The 3.2 starter release includes five assigned MP3s totaling about **88 MB**. On a fresh install their titles appear immediately; first **Play** prepares each private local copy. Updating an existing installation keeps its assignments and saved mix. The release verification record provides the exact IPA size and hash.
 
 ## Before you start
 
@@ -38,7 +38,7 @@ Sources: [AltStore's Mac guide](https://faq.altstore.io/altstore-classic/how-to-
 
 1. In **Settings → General → VPN & Device Management**, find the developer entry for **your own signing account**. Trust it and confirm the prompts. Older iOS versions may use “Profiles & Device Management.” This is the app's developer trust step, distinct from trusting the USB computer. [AltStore's trust instructions](https://faq.altstore.io/altstore-classic/how-to-install-altstore-macos).
 2. In **Settings → Privacy & Security → Developer Mode**, enable Developer Mode, restart when requested, and confirm **Enable / Turn On** after restart using the device passcode. Apple may show this setting only after a development install or device pairing has been initiated. [Apple's Developer Mode guide](https://developer.apple.com/documentation/xcode/enabling-developer-mode-on-a-device).
-3. Open Undertone. Start with a low device volume and import one short file using [APP-GUIDE.md](APP-GUIDE.md).
+3. Open Undertone and confirm **Studio / Gallery / Saved HUD / Guide** appear. Start with a low device volume and try one included recording using [APP-GUIDE.md](APP-GUIDE.md). Existing users can also check **Help → Native library** without deleting the installed app.
 
 Developer Mode and developer trust authorize a development-signed app. They are not background-audio permissions. There is no special SoundCloud-style iOS permission that guarantees playback over every other app.
 
@@ -59,12 +59,14 @@ Keep the existing Undertone installed and keep copies of your original media. Us
 
 The update preserves the older native iPhone library and mix. Open **Help (question-mark icon) → Native library** to check your recordings and make additional assignments. Choose **Return to Studio** when finished; the studio reflects those native changes. Audio continues to use the native player, while the new gallery and visual network have their own saved settings. Do not uninstall as the first response to an update error.
 
+Build 9 stores channel-cover bytes in separate picture records and retains the legacy saved mix for recovery. Keep the existing app installed during that migration. After installing, verify that the recordings and channel pictures return, change a level, close and reopen the app, and confirm that the change remains saved. These are useful checks on each recipient's own phone; the release notes distinguish automated coverage from physical-device testing.
+
 ## Troubleshooting
 
 - **Phone absent from AltServer:** unlock it, reconnect with a cable that carries data, try another USB port and confirm it appears in the Apple device-management software first. Charging alone does not prove a data connection. Use [Apple's device-detection guide](https://support.apple.com/en-us/108643).
 - **Windows Apple component or sign-in error:** confirm the iTunes/iCloud prerequisites, start AltServer as administrator and inspect the exact error. Use the latest official installer and [AltStore troubleshooting](https://faq.altstore.io/altstore-classic/troubleshooting-guide). Do not apply random binary patches or share account details.
 - **Internet drops when you plug in the iPhone / Wi-Fi icon becomes Ethernet:** keep the PC on its usual Wi-Fi and turn off **Personal Hotspot** on the iPhone while installing over USB. A USB hotspot can become Windows' preferred internet connection; an exhausted hotspot allowance can then interrupt Apple sign-in. USB device transfer and hotspot internet are separate. If you rely on the phone for your only internet connection, restore a working internet connection before signing.
-- **“The provided anisette data is invalid”:** first restore a stable internet connection, check the PC's date/time, and update AltServer using the official download. Confirm the Apple-distributed iTunes/iCloud components are installed, then retry signing. This error concerns Apple authentication data. [AltStore's error reference](https://faq.altstore.io/altstore-classic/error-codes) covers errors 2013 and 3021. On the publisher's PC, AltServer was updated from 1.8.1 to the official 1.8.4 installer on November 9, 2026; use the current official release available to you.
+- **“The provided anisette data is invalid”:** first restore a stable internet connection, check the PC's date/time, and update AltServer using the official download. Confirm the Apple-distributed iTunes/iCloud components are installed, then retry signing. This error concerns Apple authentication data. [AltStore's error reference](https://faq.altstore.io/altstore-classic/error-codes) covers errors 2013 and 3021. Use the current installer from the official AltStore website; the version available to you may differ from the publisher's earlier installation.
 - **“Could not find AltServer”:** keep it running, use the same reachable private network, or connect USB. School/guest networks can isolate devices. Allow the specific AltServer firewall access instead of disabling the firewall. [AltStore connectivity guidance](https://faq.altstore.io/altstore-classic/troubleshooting-guide).
 - **“Untrusted Developer” / Developer Mode required:** follow the two separate phone authorization steps above, then reopen the app.
 - **Three-app or ten-App-ID limit:** free signing has separate quotas. Remove an unneeded app only after protecting its data, or wait for App IDs to expire. Repeatedly inventing new bundle IDs does not fix the quota. [Apple's limits](https://developer.apple.com/help/account/basics/about-your-developer-account).

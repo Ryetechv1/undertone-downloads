@@ -1,16 +1,26 @@
-# Undertone 3.1 — start here
+# Undertone 3.2 — start here
 
-Undertone is a private media studio with ten audio slots, a visual connection network, a media gallery, rotating backgrounds and the preserved Teal Apparitions effect.
+Undertone is a private media studio with ten audio slots, a visual connection network, a media gallery, rotating backgrounds, the intent-led Teal Apparitions HUD and a built-in creator-source Guide tab.
 
-**Undertone 3.1, build 6 is being prepared.** The iPhone installer will require your own Apple signing; the Android installer will be supplied signed. The current iPhone Studio was tested by its owner; the new bundled-recording release is still being prepared. Check your own device after installing. [RELEASE-NOTES.md](RELEASE-NOTES.md) lists the completed checks and remaining verification, and the release verification record will be published with the installers.
+**Undertone 3.2, build 9 includes the five starter recordings and expanded studio.** The iPhone installer requires your own Apple signing; the Android installer is signed. [RELEASE-NOTES.md](RELEASE-NOTES.md) and the verification record describe the actual completed checks and remaining limits.
+
+Prepared **November 11, 2026 (America/Denver)**. The public guide shows download availability, and the release notes record the completed checks.
+
+## New in 3.2
+
+The updated studio restores the previous **large, soft portal vortex behind the audio cards**, while keeping the small central intent image and editable routes. It adds intent-led HUD color and motion with continuous visibility, a white 64-cell tetrahedral grid around the centered Core, balanced starting channel positions, **Clear links / Undo clear**, and **Capture image** for saving a PNG of the current HUD into Gallery. The separate Aether art layer has been removed.
+
+Open **Studio**, **Gallery**, **Saved HUD** or **Guide** from the top navigation. The **Guide** tab keeps the two supplied playlists and five optional references together, with steps for importing a creator-provided MP3/WAV where one is offered. Read [CREATOR-SOURCES.md](CREATOR-SOURCES.md) for the verified references and availability limits.
+
+Build 9 also changes channel-cover storage: picture bytes are saved separately from the mix settings, so changing volume or seeking does not rewrite the cover image. The update keeps the older saved record for recovery while migrating readable covers. Keep the existing app installed during the update and retain your original media files. Channel covers accept readable images up to **20 MB**.
 
 ## Five included recordings
 
-A fresh installation of **Undertone 3.1, build 6** starts with the five recordings captured from the owner's assigned iPhone mix. All five titles appear immediately. The first time you press **Play** for a recording, the app prepares its private local copy before playback. That preparation happens on the phone; you do not need to upload or stream the track.
+A fresh installation of **Undertone 3.2, build 9** starts with the five recordings captured from the owner's assigned iPhone mix. All five titles appear immediately. The first time you press **Play** for a recording, the app prepares its private local copy before playback. That preparation happens on the phone; you do not need to upload or stream the track.
 
 If you press **Pause** or **Clear** while a recording is preparing, its queued playback is canceled. It will not start later just because preparation finishes. Your own channel edits and saved mix remain in place when you update. The starter pack is applied only to a fresh installation, so an update does not replace an existing mix.
 
-The five MP3s total about **88 MB** before app packaging. Exact IPA/APK download sizes will be posted with the verified release. Android also prepares decoded audio on disk: after all five tracks have been prepared, allow about **1.5 GB of additional private audio storage**, on top of the installed app and any installer you keep.
+The five MP3s total about **88 MB** before app packaging. Exact app download sizes and hashes are included in the release verification record. Android also prepares decoded audio on disk: after all five tracks have been prepared, allow about **1.5 GB of additional private audio storage**, on top of the installed app and any installer you keep.
 
 ## Choose your phone
 
@@ -29,9 +39,9 @@ The free iPhone route needs periodic renewal. The installation guide explains th
 
 ## Keep everything together
 
-Use the public download buttons when the starter release is ready. You can also download the complete friends ZIP and extract it first. Open the appropriate app file from Downloads or Files. This page is the installation guide; the IPA and APK are the actual app installers.
+Use the public download buttons above. You can also download the complete friends ZIP and extract it first. Open the appropriate app file from Downloads or Files. This page is the installation guide; the IPA and APK are the actual app installers.
 
-The upcoming starter package will include five recordings selected by the owner and the supplied artwork. Bundled recordings will be publicly downloadable with the installer. Your own later imports, saved mix, intent text, gallery uploads and credentials belong to your local installation.
+The starter package includes five recordings selected by the owner and the supplied artwork. Bundled recordings are publicly downloadable with the installer. Your own later imports, saved mix, intent text, gallery uploads and credentials belong to your local installation.
 
 ## Updating an existing installation
 
